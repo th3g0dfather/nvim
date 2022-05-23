@@ -10,8 +10,9 @@ return require('packer').startup(function()
 		}
 	}
 
-	-- lspconfig
+	-- lsp
 	use 'neovim/nvim-lspconfig'
+	use "williamboman/nvim-lsp-installer"
 
 	-- completion
 	use 'hrsh7th/cmp-nvim-lsp'
