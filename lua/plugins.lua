@@ -24,4 +24,18 @@ return require('packer').startup(function()
 	-- luasnip
 	use 'L3MON4D3/LuaSnip'
 	use 'saadparwaiz1/cmp_luasnip'
+
+	--nvim-treesitter
+    use {
+        'nvim-treesitter/nvim-treesitter',
+        run = ':TSUpdate'
+    }
+
+	-- telescope
+	use {
+		'nvim-telescope/telescope.nvim',
+		requires = { {'nvim-lua/plenary.nvim'} }
+	}
+
+	use 'sainnhe/everforest'
 end)
