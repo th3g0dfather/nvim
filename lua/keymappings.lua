@@ -29,8 +29,8 @@ keymap('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
 
 -- Navigate Buffers
-keymap('n', '<S-l>', ':bnext<CR>', opts)
-keymap('n', '<S-h>', ':bprev<CR>', opts)
+keymap('n', '<Tab>', ':bnext<CR>', opts)
+keymap('n', '<S-Tab>', ':bprev<CR>', opts)
 
 
 -- Move text up and down
