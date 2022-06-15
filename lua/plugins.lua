@@ -4,7 +4,7 @@ local packer = require('packer')
 -- Have packer use popup window
 packer.init {
 	display = {
-		open_fn = function ()
+		open_fn = function()
 			return require("packer.util").float { border = "rounded" }
 		end,
 	},
@@ -45,20 +45,22 @@ return packer.startup(function()
 	use 'saadparwaiz1/cmp_luasnip'
 
 	--nvim-treesitter
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-    }
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate'
+	}
 
 	-- telescope
 	use {
 		'nvim-telescope/telescope.nvim',
-		requires = { {'nvim-lua/plenary.nvim'} }
+		requires = { { 'nvim-lua/plenary.nvim' } }
 	}
+
+	use 'nvim-telescope/telescope-media-files.nvim'
 
 	use 'sainnhe/everforest'
 
-	use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
+	use { 'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons' }
 
 	use {
 		'nvim-lualine/lualine.nvim',
