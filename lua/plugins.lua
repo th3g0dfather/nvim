@@ -26,6 +26,9 @@ return packer.startup(function()
 		}
 	}
 
+	--jdtls
+	use 'mfussenegger/nvim-jdtls'
+
 	-- lsp
 	use 'neovim/nvim-lspconfig'
 	use "williamboman/nvim-lsp-installer"

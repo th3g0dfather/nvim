@@ -1,1 +1,1 @@
-require('lua.lsp.lua_server')
+require('lsp.lua_server')
