@@ -2,6 +2,7 @@
 
 local options = {
 	number = true, 						     -- displays nubmers
+	relativenumber = true,					 -- relativenumber display
 	ignorecase = true,						 -- ignorecase in search patterns
 	completeopt = { "menuone", "noselect" }, -- mostly just for cmp
 	smartcase = true,						 -- smartcase in search patterns
