@@ -18,6 +18,15 @@ return packer.startup(function()
 	use 'nvim-lua/plenary.nvim'
 	use 'nvim-lua/popup.nvim'
 
+	use "windwp/nvim-autopairs"
+
+	use {
+		'numToStr/Comment.nvim',
+		config = function()
+			require('Comment').setup()
+		end
+	}
+
 	-- view files
 	use {
 		'kyazdani42/nvim-tree.lua',
@@ -49,6 +58,8 @@ return packer.startup(function()
 		'nvim-treesitter/nvim-treesitter',
 		run = ':TSUpdate'
 	}
+
+	use 'p00f/nvim-ts-rainbow'
 
 	-- telescope
 	use {

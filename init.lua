@@ -2,6 +2,7 @@ require('plugins')
 require('keymappings')
 require('settings')
 require('colorscheme')
+require('autopairs')
 require('bufferline').setup {}
 require('lualine').setup {}
 require('nvim-lsp-installer').setup {}
