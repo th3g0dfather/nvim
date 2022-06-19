@@ -10,4 +10,4 @@ require('completion')
 require('lsp')
 require('nv-treesitter')
 require('nvim-telescope')
-require 'nvim-tree'.setup {}
+require('tree')
