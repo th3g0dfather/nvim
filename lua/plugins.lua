@@ -1,6 +1,5 @@
 local packer = require('packer')
 
-
 -- Have packer use popup window
 packer.init {
 	display = {
@@ -84,4 +83,7 @@ return packer.startup(function()
 			require('gitsigns').setup()
 		end
 	}
+
+	use { "akinsho/toggleterm.nvim", tag = 'v1.*' }
+
 end)
