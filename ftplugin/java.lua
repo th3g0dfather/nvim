@@ -69,7 +69,7 @@ local config = {
 
 	capabilities = capabilities,
 
-	on_attach = require('lsp.lsp_mappings'),
+	on_attach = require('lsp.handler'),
 }
 -- This starts a new client & server,
 -- or attaches to an existing client & server depending on the `root_dir`.

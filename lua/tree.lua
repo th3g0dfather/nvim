@@ -1,12 +1,8 @@
 require 'nvim-tree'.setup {
+	view = {
+		number = true
+	},
 	diagnostics = {
-		enable = true,
-		show_on_dirs = false,
-		icons = {
-			hint = "",
-			info = "",
-			warning = "",
-			error = "",
-		},
+		enable = true
 	}
 }
