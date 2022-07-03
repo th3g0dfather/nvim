@@ -86,4 +86,5 @@ return packer.startup(function()
 
 	use { "akinsho/toggleterm.nvim", tag = 'v1.*' }
 
+	use 'norcalli/nvim-colorizer.lua'
 end)
