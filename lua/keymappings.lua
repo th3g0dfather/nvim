@@ -30,8 +30,8 @@ keymap('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
 
 -- Navigate Buffers
-keymap('n', '<Tab>', ':bnext<CR>', opts)
-keymap('n', '<S-Tab>', ':bprev<CR>', opts)
+keymap('n', '[b', ':BufferLineCycleNext<CR>', opts)
+keymap('n', ']b', ':BufferLineCyclePrev<CR>', opts)
 keymap('n', '<leader>x', ':bd<CR>', opts)
 
 

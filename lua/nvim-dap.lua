@@ -31,7 +31,7 @@ dapui.setup {
 				"watches",
 			},
 			size = 40, -- 40 columns
-			position = "left",
+			position = "right",
 		},
 		{
 			elements = {

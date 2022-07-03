@@ -14,7 +14,6 @@ local options = {
 	hidden = true,							 -- enalbe hiding buffers
 	termguicolors = true,					 -- show actual colours
 	laststatus = 3,							 -- only one status line
-	numberwidth = 2,						 -- set number column width to 2 {default 4}
 	-- cmdheight = 2,							 -- show more spaces for commands
 }
 
