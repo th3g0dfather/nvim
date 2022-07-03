@@ -36,6 +36,8 @@ return packer.startup(function()
 
 	--jdtls
 	use 'mfussenegger/nvim-jdtls'
+	use 'mfussenegger/nvim-dap'
+	use 'rcarriga/nvim-dap-ui'
 
 	-- lsp
 	use 'neovim/nvim-lspconfig'

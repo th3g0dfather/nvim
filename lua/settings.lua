@@ -10,9 +10,12 @@ local options = {
 	hlsearch = false,						 -- search highlight
 	tabstop = 4,							 -- tab acts as 4 spaces
 	shiftwidth = 4,						     -- number of spaces for each indentation
+	cursorline = false,						 -- highlight current line vertically
 	hidden = true,							 -- enalbe hiding buffers
 	termguicolors = true,					 -- show actual colours
-	cmdheight = 2,							 -- show more spaces for commands
+	laststatus = 3,							 -- only one status line
+	numberwidth = 2,						 -- set number column width to 2 {default 4}
+	-- cmdheight = 2,							 -- show more spaces for commands
 }
 
 for k, v in pairs(options) do
