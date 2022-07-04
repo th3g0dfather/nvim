@@ -126,6 +126,11 @@ _G.packer_plugins = {
     path = "/home/mohit/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  neorg = {
+    loaded = true,
+    path = "/home/mohit/.local/share/nvim/site/pack/packer/start/neorg",
+    url = "https://github.com/nvim-neorg/neorg"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/mohit/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
@@ -150,6 +155,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/mohit/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
     url = "https://github.com/rcarriga/nvim-dap-ui"
+  },
+  ["nvim-dap-virtual-text"] = {
+    loaded = true,
+    path = "/home/mohit/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
+    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
   },
   ["nvim-jdtls"] = {
     loaded = true,

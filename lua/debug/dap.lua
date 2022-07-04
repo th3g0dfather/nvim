@@ -1,6 +1,6 @@
 local dap, dapui = require("dap"), require("dapui")
 
-dapui.setup {
+dapui.setup({
 	icons = { expanded = "▾", collapsed = "▸" },
 	mappings = {
 		-- Use a table to apply multiple mappings
@@ -54,7 +54,7 @@ dapui.setup {
 	render = {
 		max_type_length = nil, -- Can be integer or nil.
 	}
-}
+})
 
 vim.fn.sign_define("DapBreakpoint", { text = "", texthl = "DiagnosticSignError", linehl = "", numhl = "" })
 

@@ -30,9 +30,9 @@ keymap('n', '<C-Right>', ':vertical resize +2<CR>', opts)
 
 
 -- Navigate Buffers
-keymap('n', '[b', ':BufferLineCycleNext<CR>', opts)
-keymap('n', ']b', ':BufferLineCyclePrev<CR>', opts)
-keymap('n', '<leader>x', ':bd<CR>', opts)
+keymap('n', ']]', ':BufferLineCycleNext<CR>', opts)
+keymap('n', '[[', ':BufferLineCyclePrev<CR>', opts)
+keymap('n', '<leader>x', ':bd!<CR>', opts)
 
 
 -- Move text up and down
