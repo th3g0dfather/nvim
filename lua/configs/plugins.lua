@@ -20,7 +20,6 @@ return packer.startup(function()
 
 	-- icons
 	use 'kyazdani42/nvim-web-devicons'
-	use 'onsails/lspkind'
 
 	-- colorschemes
 	use 'sainnhe/everforest'

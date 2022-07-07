@@ -20,3 +20,6 @@ require('nvim-lsp-installer').setup {}
 require('lsp')
 require('debug.dap')
 require('debug.dap-virtual-text')
+
+-- note taking
+require('notes.neorg')
