@@ -1,4 +1,4 @@
---configs
+-- configs
 require('configs.plugins')
 require('configs.keymappings')
 require('configs.options')

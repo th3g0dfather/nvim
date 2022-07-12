@@ -91,7 +91,7 @@ vim.cmd "command! -buffer JdtJshell lua require('jdtls').jshell()"
 local keymap = vim.keymap.set
 local opts = { silent = true }
 
-keymap("n", "<A-o>", "<Cmd>lua require'jdtls'.organize_imports()<CR>", opts)
+keymap("n", "<leader>oi", "<Cmd>lua require'jdtls'.organize_imports()<CR>", opts)
 keymap("n", "crv", "<Cmd>lua require('jdtls').extract_variable()<CR>", opts)
 keymap("v", "crv", "<Esc><Cmd>lua require('jdtls').extract_variable(true)<CR>", opts)
 keymap("n", "crc", "<Cmd>lua require('jdtls').extract_constant()<CR>", opts)
