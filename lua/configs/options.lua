@@ -10,6 +10,7 @@ local options = {
 	hlsearch = false,						 -- search highlight
 	tabstop = 4,							 -- tab acts as 4 spaces
 	shiftwidth = 4,						     -- number of spaces for each indentation
+	expandtab = true,
 	cursorline = false,						 -- highlight current line vertically
 	hidden = true,							 -- enalbe hiding buffers
 	termguicolors = true,					 -- show actual colours

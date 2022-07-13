@@ -40,6 +40,7 @@ return packer.startup(function()
 			require('Comment').setup()
 		end
 	}
+    use 'lukas-reineke/indent-blankline.nvim'
 
 	--nvim-treesitter
 	use {

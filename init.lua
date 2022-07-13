@@ -14,6 +14,7 @@ require('ide.telescope')
 require('ide.nvim-tree')
 require('ide.toggleterm')
 require('ide.colorizer')
+require('ide.indent-blankline')
 
 -- lsp and dubugger
 require('nvim-lsp-installer').setup {}
