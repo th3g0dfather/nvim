@@ -11,15 +11,15 @@ local options = {
 	tabstop = 4,							 -- tab acts as 4 spaces
 	shiftwidth = 4,						     -- number of spaces for each indentation
 	expandtab = true,
-	cursorline = false,						 -- highlight current line vertically
+	cursorline = true,						 -- highlight current line vertically
 	hidden = true,							 -- enalbe hiding buffers
 	termguicolors = true,					 -- show actual colours
 	laststatus = 3,							 -- only one status line
-	-- cmdheight = 2,							 -- show more spaces for commands
+    -- colorcolumn="80",
 }
 
 for k, v in pairs(options) do
 	vim.opt[k] = v
 end
 
--- vim.cmd [[set colorcolumn=+80]]			 -- colorcolumn does not work
+vim.cmd [[highlight CursorLineNr guifg=DarkYellow ctermfg=DarkYellow"]]  -- Color current line number not working
